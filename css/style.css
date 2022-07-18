@@ -78,14 +78,12 @@ img{
 }
 .title{
 	font-size: 32px;
-	line-height: 1.5;
 	font-weight: 500; /*Medium*/
 	padding-bottom: 8px;
 	border-bottom: 1px solid #000;
 }
 .title-en{
 	font-size: 24px;
-	line-height: 1.5;
 	font-weight: 600;  /*Demi Bold*/
 	color: #A00404;
 	margin-left: 16px;
@@ -100,7 +98,6 @@ img{
 }
 .title-skill{
 	font-size: 32px;
-	line-height: 1.5;
 	font-weight: 500; /*Medium*/
 	padding-bottom: 8px;
 	border-bottom: 1px solid #fff;
@@ -114,11 +111,16 @@ img{
 	text-align-last: left;
 	border-left: 1px solid #96A9C4;
 	padding-left: 24px;
-	margin-left: 390px;
+	/*助教建議: 設定寬度符合設計稿，取待大幅度margin*/
+	/* margin-left: 390px; */
+	width: 230px;
+	margin: 0 auto;
 }
 .experience-list{
 	padding-left: 24px;
-	padding-right: 510px;
+	/*助教建議: 設定固定寬度符合設計稿，取待大幅度padding*/
+	/* padding-right: 510px; */
+	width: 666px;
 	margin-left: 24px;
 	border-left: 1px solid #96A9C4;
 }
@@ -136,7 +138,6 @@ img{
 }
 .title-contact{
 	font-size: 32px;
-	line-height: 1.5;
 	font-weight: 500; /*Medium*/
 	padding-bottom: 8px;
 	border-bottom: 1px solid #fff;
@@ -148,6 +149,11 @@ img{
 }
 .contact li a{
   display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+.contact li a:hover{
+	color: blue;
 }
 .contact .outside-links a{
 	margin-left: 24px;
